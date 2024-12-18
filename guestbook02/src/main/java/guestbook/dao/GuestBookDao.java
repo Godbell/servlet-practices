@@ -28,7 +28,7 @@ public class GuestBookDao {
                 GuestBookVo vo = new GuestBookVo();
                 vo.setId(resultSet.getLong("id"));
                 vo.setName(resultSet.getString("name"));
-                vo.setPassword(resultSet.getString("reg_date"));
+                vo.setRegDate(resultSet.getString("reg_date"));
                 vo.setContents(resultSet.getString("contents"));
 
                 result.add(vo);
