@@ -8,6 +8,7 @@
         <module>emaillist01</module>
         <module>helloweb</module>
       <module>guestbook02</module>
+      <module>jstlel</module>
     </modules>
     <version>1.0-SNAPSHOT</version>
   <name>servlet-practices Maven Webapp</name>
